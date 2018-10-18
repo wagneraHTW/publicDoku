@@ -8,13 +8,11 @@ ps -ax | grep -v " \[.*\]"
 ```bash 
 lsof -i 4 -n  
 ```
-###Zu welchem paket gehört das File  
+## Zu welchem paket gehört das File  
 ```bash 
 dpkg -S  /usr/lib/postgresql/9.3/bin/psql 
 #out: postgresql-client-9.3: /usr/lib/postgresql/9.3/bin/psql
 ```
-
-
 
 ## Schleifen 
 
